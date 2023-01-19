@@ -22,3 +22,13 @@ header h3 {
     margin: 0;
     font-size: 1.25rem;
 }
+
+/* SECTION */
+
+section {
+    padding: 2.75rem 0;
+}
+
+.section-img {
+    width: 100%;
+}
