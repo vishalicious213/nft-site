@@ -29,6 +29,11 @@ a:hover, a:active {
     color: #d4b44c;
 }
 
+.container {
+    width: 620px;
+    margin: 0 auto;
+}
+
 /* HEADER */
 
 header {
