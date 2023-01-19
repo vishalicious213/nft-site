@@ -20,6 +20,15 @@ h3 {
     font-size: 1.25rem;
 }
 
+a {
+    color: #ef5839;
+    text-decoration-style: dotted;
+}
+
+a:hover, a:active {
+    color: #d4b44c;
+}
+
 /* HEADER */
 
 header {
