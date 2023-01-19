@@ -29,6 +29,7 @@ a:hover, a:active {
 .container {
     max-width: 620px;
     margin: 0 auto;
+    padding: 0 1rem;
 }
 
 .two-image-container {
@@ -107,4 +108,12 @@ body, h1, h3 {
 
 header, section, footer {
     padding: 2.75rem 0;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 670px) {
+    .container {
+        padding: 0;
+    }
 }
