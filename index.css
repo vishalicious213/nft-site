@@ -27,17 +27,19 @@ a:hover, a:active {
 }
 
 .container {
-    width: 620px;
+    max-width: 620px;
     margin: 0 auto;
 }
 
 .two-image-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .two-images {
-    width: 18.75rem;
+    width: 48%;
+    max-width: 18.75rem;
     border-radius: .25rem;
 }
 
