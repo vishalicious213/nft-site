@@ -67,3 +67,11 @@ section {
     background-color: #5f29a3;
     color: whitesmoke;
 }
+
+/* FOOTER */
+
+footer {
+    color: #5f29a3;
+    padding: 2.75rem 0;
+    text-align: center;
+}
