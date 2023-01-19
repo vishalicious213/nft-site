@@ -47,7 +47,8 @@ a:hover, a:active {
     padding: .8rem 1.25rem;
     border-radius: .25rem;
     font-weight: 500;
-    text-decoration: none ;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .button-dark {
