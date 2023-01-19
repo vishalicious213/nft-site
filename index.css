@@ -41,6 +41,35 @@ a:hover, a:active {
     border-radius: .25rem;
 }
 
+/* BUTTONS */
+
+.button {
+    padding: .8rem 1.25rem;
+    border-radius: .25rem;
+    font-weight: 500;
+    text-decoration: none ;
+}
+
+.button-dark {
+    background-color: #5f29a3;
+    color: whitesmoke;
+}
+
+.button-medium {
+    background-color: #f0e0ff;
+    color: #5f29a3;
+}
+
+.button-light {
+    background-color: whitesmoke;
+    color: #5f29a3;
+}
+
+.button:hover, .button:active {
+    background-color: #f3e885;
+    color: #2b283a;
+}
+
 /* HEADER */
 
 header {
