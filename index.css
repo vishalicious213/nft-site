@@ -1,12 +1,10 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #2b283a;
-    margin: 0;
 }
 
 h1 {
     color: whitesmoke;
-    margin: 0;
     font-size: 2.25rem;
 }
 
@@ -16,7 +14,6 @@ h2 {
 
 h3 {
     color: #d0aaff;
-    margin: 0;
     font-size: 1.25rem;
 }
 
@@ -48,14 +45,9 @@ a:hover, a:active {
 
 header {
     background-color: #5f29a3;
-    padding: 2.75rem 0;
 }
 
 /* SECTION */
-
-section {
-    padding: 2.75rem 0;
-}
 
 .section-img {
     width: 100%;
@@ -72,6 +64,15 @@ section {
 
 footer {
     color: #5f29a3;
-    padding: 2.75rem 0;
     text-align: center;
+}
+
+/* MULTIPLE ELEMENTS */
+
+body, h1, h3 {
+    margin: 0;
+}
+
+header, section, footer {
+    padding: 2.75rem 0;
 }
